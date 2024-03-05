@@ -1,0 +1,56 @@
+:root {
+    /* PRIMARY COLORS */
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+
+    /* NEUTRAL COLORS */
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+    font-family: "Outfit";
+    scr: url(/assets/fonts/outfit/static/Outfit-VariableFont_wght.ttf)
+}
+
+body {
+    background-color: var(--Eggshell);
+}
+
+h1 {
+    font-family: "Young Serif";
+}
+
+h2 {
+    font-family: "Outfit";
+    color: var(--Nutmeg);
+}
+
+h3 {
+    color: var(--DarkRaspberry);
+}
+
+p, li, table {
+    color: var(--WengeBrown);
+    font-weight: 600;
+}
+
+li::marker {
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.preparation {
+    background-color: hsl(337, 87%, 97%);
+}
+
+.table-data {
+    color: var(--Nutmeg);
+}

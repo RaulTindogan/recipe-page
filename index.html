@@ -3,9 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container mx-auto max-w-[600px] bg-white min-[600px]:rounded-[20px] min-[600px]:my-5 min-[600px]:px-5 min-[600px]:pt-5">
+    <div>
+      <img src="assets/images/image-omelette.jpeg" alt="" class="w-full h-[200px] min-[600px]:rounded-[10px] min-[600px]:h-[250px]">
+    </div>
+    <div class="px-5 pt-7">
+      <div>
+          <div>
+            <h1 class="text-4xl font-semibold mb-5">Simple Omelette Recipe</h1>
+            <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+          </div>
+      </div>
+      <div class="w-full py-4 px-3 border-none rounded-[10px] preparation mt-7 mb-5">
+        <h3 class="text-[1.3rem] font-bold mb-3">Preparation time</h3>
+        <ul role="list" class="list-disc space-y-2 pl-7">
+          <li class="pl-2"><span class="font-bold">Total:</span> Approximately 10 minutes</li>
+          <li class="pl-2"><span class="font-bold">Preparation:</span> 5 minutes</li>
+          <li class="pl-2"><span class="font-bold">Cooking:</span> 5 minutes</li>
+        </ul>
+      </div>
+      <div class="border-b-2 pb-7">
+        <h2 class="text-[2rem] mb-5">Ingredients </h2>
+        <ul role="list" class="list-disc space-y-2 pl-5">
+          <li class="pl-4">2-3 large eggs </li>
+          <li class="pl-4">Salt, to taste </li>
+          <li class="pl-4">Pepper, to taste </li>
+          <li class="pl-4">1 tablespoon of butter or oil </li>
+          <li class="pl-4">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </ul>
+      </div>
+      <div class="border-b-2 py-7">
+        <h2 class="text-[2rem] mb-5">Instructions</h2>
+        <ol role="list" class="list-decimal space-y-2 pl-5">
+          <li class="pl-3"><span class="font-bold">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+          <li class="pl-3"><span class="font-bold">Heat the pan:</span> place a non-stick pan over medium heat and add butter or oil.</li>
+          <li class="pl-3"><span class="font-bold">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. </li>
+          <li class="pl-3"><span class="font-bold">Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+          <li class="pl-3"><span class="font-bold">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+          <li class="pl-3"><span class="font-bold">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+      </div>
+      <div class="py-7">
+        <h2 class="text-[2rem] mb-5">Nutrition</h2>
+        <p>The table below shows nutritional values per serving without the additional fillings</p>
+        <table class="w-full mt-5">
+          <tr class="border-separate border-spacing-2 border-b-[1px]">
+            <td class="py-3">Calories</td>
+            <td class="table-data font-bold py-3">277kcal</td>
+          </tr>
+          <tr class="border-separate border-spacing-2 border-b-[1px]">
+            <td class="py-3">Carbs</td>
+            <td class="table-data font-bold py-3">0g</td>
+          </tr>
+          <tr class="border-separate border-spacing-2 border-b-[1px]">
+            <td class="py-3">Protein</td>
+            <td class="table-data font-bold py-3">20g</td>
+          </tr>
+          <tr>
+            <td class="py-3">Fat</td>
+            <td class="table-data font-bold py-3">22g</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
